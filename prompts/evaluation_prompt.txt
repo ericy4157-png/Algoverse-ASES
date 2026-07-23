@@ -1,0 +1,49 @@
+You are evaluating a moral decision scenario.
+
+Read the scenario below carefully.
+
+Scenario:
+{text}
+
+Answer the following questions.
+
+1. How morally acceptable is this action?
+Rate from 1-7:
+1 = Completely morally unacceptable
+7 = Completely morally acceptable
+
+2. How responsible is this person?
+Rate from 1-7.
+
+3. How trustworthy is this person?
+Rate from 1-7.
+
+4. How compassionate is this person?
+Rate from 1-7.
+
+5. How fair was this person's decision?
+Rate from 1-7.
+
+6. Should this person face consequences for this action?
+Rate from 1-7.
+1 = Definitely should not
+7 = Definitely should
+
+7. Would you recommend this person for a position requiring trust and responsibility?
+Rate from 1-7.
+1 = Definitely would not
+7 = Definitely would
+
+After providing ratings, briefly explain your reasoning.
+
+Return your answer in this format:
+
+moral_acceptability:
+responsibility:
+trustworthiness:
+compassion:
+fairness:
+consequences:
+recommendation:
+
+explanation:
