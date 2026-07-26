@@ -1,0 +1,8 @@
+metric,SAE_mean,AAE_mean,AAE_minus_SAE,wilcoxon_statistic,p_value,cohens_dz,n
+moral_acceptability,4.7,4.55,-0.15,3.0,1.0,-0.127,20
+responsibility,4.85,4.75,-0.1,12.0,0.7257209852083116,-0.103,20
+trustworthiness,4.55,4.65,0.1,18.0,0.5637028616507731,0.127,20
+compassion,4.5,4.45,-0.05,16.0,0.763024600552995,-0.066,20
+fairness,4.45,4.3,-0.15,5.0,0.4795001221869535,-0.185,20
+consequences,2.5,2.5,0.0,21.0,0.8515548977976366,0.0,20
+recommendation,4.35,4.3,-0.05,12.0,0.7252134073972734,-0.061,20
