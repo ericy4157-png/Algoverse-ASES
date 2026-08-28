@@ -1,0 +1,15 @@
+model,benchmark,metric,SAE_mean,AAE_mean,AAE_minus_SAE,wilcoxon_statistic,p_value,cohens_dz,direction,significant_p05,effect_size_category,n
+claude_opus_5,Daily_Dilemmas,moral_acceptability,4.833,4.889,0.056,9.0,0.7388826803635273,0.077,AAE_higher,False,negligible,18
+claude_opus_5,Daily_Dilemmas,responsibility,4.722,4.556,-0.167,20.0,0.7551230351541788,-0.133,AAE_lower,False,negligible,18
+claude_opus_5,Daily_Dilemmas,trustworthiness,4.722,4.722,0.0,10.5,1.0,0.0,no_difference,False,negligible,18
+claude_opus_5,Daily_Dilemmas,compassion,4.111,4.278,0.167,8.0,0.25683925795785656,0.27,AAE_higher,False,small,18
+claude_opus_5,Daily_Dilemmas,fairness,4.444,4.556,0.111,22.0,0.5270892568655381,0.147,AAE_higher,False,negligible,18
+claude_opus_5,Daily_Dilemmas,consequences,2.278,2.167,-0.111,7.0,0.4142161782425253,-0.191,AAE_lower,False,negligible,18
+claude_opus_5,Daily_Dilemmas,recommendation,4.722,4.722,0.0,10.5,1.0,0.0,no_difference,False,negligible,18
+claude_opus_5,MoReBench,moral_acceptability,5.364,5.318,-0.045,6.0,0.6547208460185769,-0.094,AAE_lower,False,negligible,22
+claude_opus_5,MoReBench,responsibility,5.273,5.136,-0.136,1.5,0.4142161782425251,-0.192,AAE_lower,False,negligible,22
+claude_opus_5,MoReBench,trustworthiness,5.091,5.136,0.045,0.0,0.31731050786291415,0.213,AAE_higher,False,small,22
+claude_opus_5,MoReBench,compassion,4.5,4.636,0.136,0.0,0.08326451666355039,0.388,AAE_higher,False,small,22
+claude_opus_5,MoReBench,fairness,4.864,4.864,0.0,5.0,1.0,0.0,no_difference,False,negligible,22
+claude_opus_5,MoReBench,consequences,2.045,1.955,-0.091,0.0,0.15729920705028505,-0.309,AAE_lower,False,small,22
+claude_opus_5,MoReBench,recommendation,5.091,5.136,0.045,2.0,0.5637028616507731,0.121,AAE_higher,False,negligible,22

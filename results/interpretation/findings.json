@@ -1,0 +1,14 @@
+[
+  {
+    "finding_type": "strongest_effect",
+    "model": "gpt-5",
+    "benchmark": "Daily_Dilemmas",
+    "metric": "consequences",
+    "effect": -0.397,
+    "difference": -0.389,
+    "p_value": 0.1024704348597494,
+    "n": 18,
+    "significant_p05": false,
+    "interpretation": "Largest observed standardized dialect difference among tests with n >= 10 (unreliable low-n effects are excluded from this ranking; see strongest_effects.csv for the full list with low_power flags)."
+  }
+]

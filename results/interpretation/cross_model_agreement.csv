@@ -1,0 +1,15 @@
+benchmark,metric,models,AAE_lower_models,AAE_higher_models,no_difference_models,consensus_direction,agreement_rate,min_n_across_models,reliable_consensus
+Daily_Dilemmas,moral_acceptability,3,1,2,0,AAE_higher,0.667,15,False
+Daily_Dilemmas,responsibility,3,3,0,0,AAE_lower,1.0,15,False
+Daily_Dilemmas,trustworthiness,3,1,0,2,mixed,0.667,15,False
+Daily_Dilemmas,compassion,3,1,1,1,mixed,0.333,15,False
+Daily_Dilemmas,fairness,3,1,2,0,AAE_higher,0.667,15,False
+Daily_Dilemmas,consequences,3,3,0,0,AAE_lower,1.0,15,False
+Daily_Dilemmas,recommendation,3,1,1,1,mixed,0.333,15,False
+MoReBench,moral_acceptability,3,1,2,0,AAE_higher,0.667,21,False
+MoReBench,responsibility,3,1,2,0,AAE_higher,0.667,21,False
+MoReBench,trustworthiness,3,0,3,0,AAE_higher,1.0,21,False
+MoReBench,compassion,3,0,3,0,AAE_higher,1.0,21,False
+MoReBench,fairness,3,0,2,1,AAE_higher,0.667,21,False
+MoReBench,consequences,3,3,0,0,AAE_lower,1.0,21,False
+MoReBench,recommendation,3,0,3,0,AAE_higher,1.0,21,False

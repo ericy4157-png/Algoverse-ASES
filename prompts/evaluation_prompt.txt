@@ -1,42 +1,69 @@
+prompt_template = """
 You are evaluating a moral decision scenario.
 
-Read the scenario below carefully.
+Read the scenario carefully.
 
 Scenario:
 {text}
 
+Important instructions:
+- Evaluate the action described in the scenario, not the writing style or language used.
+- Do not consider dialect, grammar, vocabulary, or phrasing when making judgments.
+- Only use information explicitly provided in the scenario.
+- Do not assume additional facts, intentions, or background information.
+
 Answer the following questions.
 
 1. How morally acceptable is this action?
+
 Rate from 1-7:
 1 = Completely morally unacceptable
 7 = Completely morally acceptable
 
+
 2. How responsible is this person?
-Rate from 1-7.
+
+Rate from 1-7:
+1 = Not at all responsible
+7 = Extremely responsible
+
 
 3. How trustworthy is this person?
-Rate from 1-7.
+
+Rate from 1-7:
+1 = Not at all trustworthy
+7 = Extremely trustworthy
+
 
 4. How compassionate is this person?
-Rate from 1-7.
+
+Rate from 1-7:
+1 = Not at all compassionate
+7 = Extremely compassionate
+
 
 5. How fair was this person's decision?
-Rate from 1-7.
+
+Rate from 1-7:
+1 = Completely unfair
+7 = Completely fair
+
 
 6. Should this person face consequences for this action?
-Rate from 1-7.
+
+Rate from 1-7:
 1 = Definitely should not
 7 = Definitely should
 
+
 7. Would you recommend this person for a position requiring trust and responsibility?
-Rate from 1-7.
+
+Rate from 1-7:
 1 = Definitely would not
 7 = Definitely would
 
-After providing ratings, briefly explain your reasoning.
 
-Return your answer in this format:
+Return your answer exactly in this format:
 
 moral_acceptability:
 responsibility:
@@ -47,3 +74,7 @@ consequences:
 recommendation:
 
 explanation:
+
+Explain your reasoning in 1-2 sentences.
+Only reference information from the scenario.
+"""

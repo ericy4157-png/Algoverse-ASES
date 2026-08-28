@@ -1,0 +1,7 @@
+model_family,benchmark,mean_difference,mean_effect_size,significant_results,total_results,min_n,significance_rate
+Claude,Daily_Dilemmas,0.007999999999999998,0.02428571428571429,0,7,18,0.0
+Claude,MoReBench,-0.006571428571428571,0.018142857142857145,0,7,22,0.0
+DeepSeek-V4-Pro,Daily_Dilemmas,-0.23814285714285716,-0.16142857142857145,0,7,15,0.0
+DeepSeek-V4-Pro,MoReBench,0.13599999999999998,0.108,0,7,21,0.0
+gpt-5,Daily_Dilemmas,-0.04771428571428572,0.003999999999999991,0,7,18,0.0
+gpt-5,MoReBench,0.032285714285714286,0.08399999999999999,0,7,22,0.0
