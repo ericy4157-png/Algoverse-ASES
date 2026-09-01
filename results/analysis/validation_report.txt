@@ -1,0 +1,19 @@
+DIALECT BIAS ANALYSIS VALIDATION REPORT
+================================================================================
+
+Qwen3-30B-A3B-Instruct-2507: PASS - 2364 rows
+Qwen3-30B-A3B-Instruct-2507: PASS - no duplicate scenario/dialect/arm rows
+Qwen3-30B-A3B-Instruct-2507: PASS - all scenario-arm pairs contain SAE, AAE and ChE
+GPT-5: PASS - 2364 rows
+GPT-5: PASS - no duplicate scenario/dialect/arm rows
+GPT-5: PASS - all scenario-arm pairs contain SAE, AAE and ChE
+DeepSeek-V4-Pro: PASS - 2364 rows
+DeepSeek-V4-Pro: PASS - no duplicate scenario/dialect/arm rows
+DeepSeek-V4-Pro: PASS - all scenario-arm pairs contain SAE, AAE and ChE
+Claude Opus 5: PASS - 2364 rows
+Claude Opus 5: PASS - no duplicate scenario/dialect/arm rows
+Claude Opus 5: PASS - all scenario-arm pairs contain SAE, AAE and ChE
+
+Total effect tests: 56
+Bonferroni family: 4 models × 2 dialect contrasts × 7 outcomes = 56 tests
+Bonferroni alpha: 0.000893
